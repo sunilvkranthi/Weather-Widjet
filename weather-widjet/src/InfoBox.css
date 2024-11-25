@@ -1,0 +1,17 @@
+.info-box{
+    margin-top: 2rem;
+    width: 350px;
+}
+
+.MuiPaper-root{
+    border: 1px solid black;
+    border-radius: 12px !important;
+    width: 100%;
+}
+
+.MuiPaper-root:hover{
+    transform: scale(1.02);
+    box-shadow: 5px 5px 5px black;
+}
+
+
