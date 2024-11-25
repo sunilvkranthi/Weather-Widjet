@@ -6,11 +6,11 @@ import { useState } from "react";
 export default function WeatherApp(){
     let [weatherInfo,setWeatherInfo] = useState({
         city:"wonderland",
-        feelsLike:16.7,
-        temp:17.3,
-        tempMin:17.3,
-        tempMax:17.3,
-        humidity:20,
+        feelsLike:0.0,
+        temp:0.0,
+        tempMin:0.0,
+        tempMax:0.0,
+        humidity:0,
         weather:"haze",
     })
     
